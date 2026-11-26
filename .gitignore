@@ -1,0 +1,40 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache / build
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Secrets / local config
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# Large / generated files
+*.zip
+*.tar
+*.tar.gz
+
+# Windows / WSL metadata
+*:Zone.Identifier
+Thumbs.db
+Desktop.ini
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+*.swp
